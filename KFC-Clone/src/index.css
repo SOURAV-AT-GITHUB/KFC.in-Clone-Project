@@ -1,0 +1,70 @@
+.popup-open {
+  overflow: hidden;
+}
+.view-details:hover{
+  cursor: pointer;
+  background-color: rgb(184, 184, 184);
+}
+ul {
+  list-style-type: none;
+}
+.home-loading-animation {
+  width: 100%;
+  height: 100%;
+  background: #202124;
+  position: fixed;
+  left: 0;
+  top: 0;
+  animation: reveal .8s cubic-bezier(.5,0,.5,1) 2s forwards reverse;
+  transform-origin: 50% 100%;
+  z-index: 100000;
+}
+.home-loading-animation figure svg path {
+  transform: scaleY(0);
+  animation: reveal .8s cubic-bezier(.15,.45,.6,1) forwards;
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+:not(svg) {
+  transform-origin: 0px 0px;
+}
+figure>svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  fill: currentColor;
+}
+.home-loading-animation figure {
+  max-width: 20%;
+  height: 100%;
+  margin: 0 auto;
+  color: #e4002b;
+  position: relative;
+}
+#menu::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
+body::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
+.remove-button{
+  text-decoration: underline;
+  width: fit-content;
+  font-size: 12px;
+  font-weight: bold;
+}
+.remove-button:hover{
+  background-color: rgb(201, 201, 201);
+  cursor: pointer;
+}
+@keyframes reveal {
+  0% {
+    transform: scaleY(0);
+}
+
+100% {
+    transform: scaleY(1);
+}
+}
