@@ -13,7 +13,7 @@ Cart Functionality: Users can add products to the cart, which updates the total 
 Responsive Design: The website is fully responsive with a drawer menu for smaller screens, featuring links to the home and menu pages. The total cart value is displayed outside the drawer.
 Screenshots
 # Homepage
-<image src='Demo_Images/KFC-demo.png' aly='Home page'/>
+<image src='Demo_Images/KFC-Demo.png' aly='Home page'/>
 # Menu Page
 <image src='Demo_Images/Menu-page.png' aly='Menu page'/>
 # Cart Page
